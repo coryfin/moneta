@@ -1,0 +1,27 @@
+{
+  "name": "moneta",
+  "version": "1.0.0",
+  "description": "JavaScript money and currency library, based on JavaMoney",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc && copyfiles package.json dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coryfin/moneta.git"
+  },
+  "keywords": [
+    "money",
+    "currency"
+  ],
+  "author": "Cory Finlinson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/coryfin/moneta/issues"
+  },
+  "homepage": "https://github.com/coryfin/moneta#readme",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "typescript": "^4.7.3"
+  }
+}
